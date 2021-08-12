@@ -2,11 +2,11 @@
   "name": "gonzaces-rest-api",
   "version": "1.0.0",
   "description": "REST API Built for CS 290 Assignment 4",
-  "main": "controller.mjs",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node controller.mjs",
-    "watch": "nodemon controller.mjs"
+    "start": "node index.mjs",
+    "watch": "nodemon index.mjs"
   },
   "repository": {
     "type": "git",
