@@ -1,0 +1,22 @@
+.home {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 4.5rem;
+	padding-bottom: 6rem;
+
+	&__no-results {
+		display: flex;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		flex-direction: column;
+		font-weight: bold;
+
+		&-title {
+			text-align: center;
+			font-size: 2.8rem;
+		}
+	}
+}

@@ -1,0 +1,45 @@
+.exercise-table-row {
+	font-size: 1.4rem;
+	font-weight: 500;
+
+	&__column {
+		border: none;
+		padding: 0.75rem 1.5rem;
+
+		&:nth-child(6) {
+			text-align: center;
+			font-size: 2rem;
+
+			svg {
+				&:hover {
+					path {
+						stroke: $color-blue;
+					}
+				}
+			}
+		}
+
+		&:nth-child(7) {
+			text-align: center;
+			font-size: 2.8rem;
+
+			svg {
+				&:hover {
+					path {
+						stroke: $color-red;
+					}
+				}
+			}
+		}
+	}
+
+	svg {
+		&:hover {
+			cursor: pointer;
+		}
+
+		path {
+			transition: 0.35s ease stroke;
+		}
+	}
+}

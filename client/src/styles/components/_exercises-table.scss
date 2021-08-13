@@ -1,0 +1,28 @@
+.exercise-table {
+	width: 90%;
+	max-width: 90rem;
+	background-color: $color-white;
+	border-radius: 0.4rem;
+	border-collapse: collapse;
+	box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+
+	&__head {
+		background-color: $color-green;
+		border-top-left-radius: 0.4rem;
+		border-top-right-radius: 0.4rem;
+		color: $color-white;
+		font-size: 1.6rem;
+		text-align: left;
+
+		&-column {
+			border: none;
+			padding: 0.75rem 1.5rem;
+
+			&:nth-child(6),
+			&:nth-child(7) {
+				text-align: center;
+			}
+		}
+	}
+}

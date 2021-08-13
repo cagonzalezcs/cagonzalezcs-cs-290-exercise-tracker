@@ -1,0 +1,21 @@
+@import './styles/vendor/normalize';
+
+/**
+ * General
+ */
+@import "./styles/variables";
+@import "./styles/global";
+
+/**
+ * Components
+ */
+@import "./styles/components/navigation";
+@import "./styles/components/exercises-table";
+@import "./styles/components/exercises-table-row";
+
+/**
+ * Pages
+ */
+@import "./styles/pages/home";
+@import "./styles/pages/edit";
+@import "./styles/pages/create";

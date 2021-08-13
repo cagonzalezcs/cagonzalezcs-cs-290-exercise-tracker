@@ -76,6 +76,9 @@ app.put('/exercises/:_id', (req, res) => {
         });
 });
 
+/**
+ * Set DELETE route for removing an exercise within the database
+ */
 app.delete('/exercises/:_id', (req, res) => {
     exercises.deleteExercise(req.params._id)
         .then((numberDeleted) => {

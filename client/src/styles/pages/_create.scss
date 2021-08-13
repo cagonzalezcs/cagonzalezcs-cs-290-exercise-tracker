@@ -1,0 +1,23 @@
+.create {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 4.5rem;
+	padding-bottom: 5rem;
+
+	&__label {
+		&:nth-child(3) {
+			width: 50%;
+		}
+
+		&:nth-child(4) {
+			width: 48%;
+			margin-left: 2%;
+		}
+	}
+
+	&__submit {
+		margin-top: 20px;
+	}
+}
